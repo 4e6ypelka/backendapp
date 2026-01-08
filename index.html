@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Telegram Mini App</title>
+
+  <!-- Telegram WebApp -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-ring">
+      <div class="loader-arc"></div>
+      <div class="loader-center"></div>
+    </div>
+    <div class="loader-text">ЗАГРУЗКА</div>
+  </div>
+
+  <!-- STARS -->
+  <div id="starsContainer"></div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="line"></div>
+    <div class="avatar" id="avatar"></div>
+    <div class="line"></div>
+  </div>
+
+  <!-- LOGIC -->
+  <script src="js.js"></script>
+</body>
+</html>
