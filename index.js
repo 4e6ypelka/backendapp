@@ -11,7 +11,7 @@ const BOT_TOKEN = '8275536453:AAE-2fiwUdbU_jDtPcQ1GLk5845b7Yv11Cw';
 
 // Supabase
 const SUPABASE_URL = 'https://izqmxiczwjxbahoaouvf.supabase.co';
-const SUPABASE_SERVICE_KEY = 'sb_publishable_0nUhMOEyKweMbCsnbPGq6g_ZwVK-wOa';
+const SUPABASE_SERVICE_KEY = 'sb_secret_EkQDc050Y4kKpgDIwX1wpg_ocqt17El';
 
 const supabase = createClient(
   SUPABASE_URL,
